@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052C214B203FBCCD0021745D /* GCGGrenadaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052C214A203FBCCD0021745D /* GCGGrenadaVC.swift */; };
+		054923FF20507E8D004F5C36 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054923FE20507E8D004F5C36 /* PageVC.swift */; };
+		05E9E9532043539800C5E2C7 /* CollectionViewDialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E9E9522043539700C5E2C7 /* CollectionViewDialLayout.swift */; };
+		7CE8DB5C208EEB0300C2B972 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8DB5B208EEB0300C2B972 /* LandingVC.swift */; };
+		7CE8DB61208F3DFA00C2B972 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8DB60208F3DFA00C2B972 /* MapVC.swift */; };
+		9891DC62324FF9521087538E /* Pods_GoCaribGo_Grenada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FA6DE9546F5CA9C2170EB /* Pods_GoCaribGo_Grenada.framework */; };
+		CBBD2FE02038A129002A7DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD2FDF2038A129002A7DB8 /* AppDelegate.swift */; };
+		CBBD2FE52038A129002A7DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBD2FE32038A129002A7DB8 /* Main.storyboard */; };
+		CBBD2FE72038A129002A7DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBBD2FE62038A129002A7DB8 /* Assets.xcassets */; };
+		CBBD2FEA2038A129002A7DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBD2FE82038A129002A7DB8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052C214A203FBCCD0021745D /* GCGGrenadaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCGGrenadaVC.swift; sourceTree = "<group>"; };
+		054923FE20507E8D004F5C36 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		05E9E94E2042B24D00C5E2C7 /* GoCaribGo Grenada-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoCaribGo Grenada-Bridging-Header.h"; sourceTree = "<group>"; };
+		05E9E9522043539700C5E2C7 /* CollectionViewDialLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDialLayout.swift; sourceTree = "<group>"; };
+		239FA6DE9546F5CA9C2170EB /* Pods_GoCaribGo_Grenada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoCaribGo_Grenada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D48ABB8F29237607D56F200 /* Pods-GoCaribGo Grenada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCaribGo Grenada.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoCaribGo Grenada/Pods-GoCaribGo Grenada.debug.xcconfig"; sourceTree = "<group>"; };
+		7CE8DB5B208EEB0300C2B972 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		7CE8DB60208F3DFA00C2B972 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		970BA789760B0CA0D55A5236 /* Pods-GoCaribGo Grenada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCaribGo Grenada.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoCaribGo Grenada/Pods-GoCaribGo Grenada.release.xcconfig"; sourceTree = "<group>"; };
+		CBBD2FDC2038A129002A7DB8 /* GoCaribGo Grenada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoCaribGo Grenada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBD2FDF2038A129002A7DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBBD2FE42038A129002A7DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBBD2FE62038A129002A7DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBBD2FE92038A129002A7DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBBD2FEB2038A12A002A7DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBBD2FD92038A129002A7DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9891DC62324FF9521087538E /* Pods_GoCaribGo_Grenada.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05750EC5752F56225A633B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239FA6DE9546F5CA9C2170EB /* Pods_GoCaribGo_Grenada.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33EA8FCDEA15BD091A9AB38D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D48ABB8F29237607D56F200 /* Pods-GoCaribGo Grenada.debug.xcconfig */,
+				970BA789760B0CA0D55A5236 /* Pods-GoCaribGo Grenada.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB0AB94E203B2B2900F5FED8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				052C214A203FBCCD0021745D /* GCGGrenadaVC.swift */,
+				7CE8DB5B208EEB0300C2B972 /* LandingVC.swift */,
+				054923FE20507E8D004F5C36 /* PageVC.swift */,
+				7CE8DB60208F3DFA00C2B972 /* MapVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB0AB980203B469200F5FED8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05E9E9522043539700C5E2C7 /* CollectionViewDialLayout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBBD2FD32038A129002A7DB8 = {
+			isa = PBXGroup;
+			children = (
+				CBBD2FDE2038A129002A7DB8 /* GoCaribGo Grenada */,
+				CBBD2FDD2038A129002A7DB8 /* Products */,
+				33EA8FCDEA15BD091A9AB38D /* Pods */,
+				05750EC5752F56225A633B2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBBD2FDD2038A129002A7DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBBD2FDC2038A129002A7DB8 /* GoCaribGo Grenada.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBBD2FDE2038A129002A7DB8 /* GoCaribGo Grenada */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AB980203B469200F5FED8 /* Model */,
+				CB0AB94E203B2B2900F5FED8 /* Controllers */,
+				CBBD2FDF2038A129002A7DB8 /* AppDelegate.swift */,
+				05E9E94E2042B24D00C5E2C7 /* GoCaribGo Grenada-Bridging-Header.h */,
+				CBBD2FE32038A129002A7DB8 /* Main.storyboard */,
+				CBBD2FE62038A129002A7DB8 /* Assets.xcassets */,
+				CBBD2FE82038A129002A7DB8 /* LaunchScreen.storyboard */,
+				CBBD2FEB2038A12A002A7DB8 /* Info.plist */,
+			);
+			path = "GoCaribGo Grenada";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBBD2FDB2038A129002A7DB8 /* GoCaribGo Grenada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBBD2FEE2038A12A002A7DB8 /* Build configuration list for PBXNativeTarget "GoCaribGo Grenada" */;
+			buildPhases = (
+				E5171211FE168DEE0654C9E1 /* [CP] Check Pods Manifest.lock */,
+				CBBD2FD82038A129002A7DB8 /* Sources */,
+				CBBD2FD92038A129002A7DB8 /* Frameworks */,
+				CBBD2FDA2038A129002A7DB8 /* Resources */,
+				4DFFCE1971791D2A7AA2BD73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoCaribGo Grenada";
+			productName = "GoCaribGo Grenada";
+			productReference = CBBD2FDC2038A129002A7DB8 /* GoCaribGo Grenada.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBBD2FD42038A129002A7DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "The RedBox Agency";
+				TargetAttributes = {
+					CBBD2FDB2038A129002A7DB8 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CBBD2FD72038A129002A7DB8 /* Build configuration list for PBXProject "GoCaribGo Grenada" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBBD2FD32038A129002A7DB8;
+			productRefGroup = CBBD2FDD2038A129002A7DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBBD2FDB2038A129002A7DB8 /* GoCaribGo Grenada */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBBD2FDA2038A129002A7DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBD2FEA2038A129002A7DB8 /* LaunchScreen.storyboard in Resources */,
+				CBBD2FE72038A129002A7DB8 /* Assets.xcassets in Resources */,
+				CBBD2FE52038A129002A7DB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DFFCE1971791D2A7AA2BD73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoCaribGo Grenada/Pods-GoCaribGo Grenada-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoCaribGo Grenada/Pods-GoCaribGo Grenada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5171211FE168DEE0654C9E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoCaribGo Grenada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBBD2FD82038A129002A7DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052C214B203FBCCD0021745D /* GCGGrenadaVC.swift in Sources */,
+				05E9E9532043539800C5E2C7 /* CollectionViewDialLayout.swift in Sources */,
+				CBBD2FE02038A129002A7DB8 /* AppDelegate.swift in Sources */,
+				7CE8DB61208F3DFA00C2B972 /* MapVC.swift in Sources */,
+				7CE8DB5C208EEB0300C2B972 /* LandingVC.swift in Sources */,
+				054923FF20507E8D004F5C36 /* PageVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBBD2FE32038A129002A7DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBD2FE42038A129002A7DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBBD2FE82038A129002A7DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBBD2FE92038A129002A7DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBBD2FEC2038A12A002A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBBD2FED2038A12A002A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBBD2FEF2038A12A002A7DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D48ABB8F29237607D56F200 /* Pods-GoCaribGo Grenada.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H63U8F484A;
+				INFOPLIST_FILE = "GoCaribGo Grenada/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gocaribgo.GoCaribGo-Grenada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2756e846-ea96-4908-92ae-ad2a80eb4690";
+				PROVISIONING_PROFILE_SPECIFIER = "Elf Wildcard";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoCaribGo Grenada/GoCaribGo Grenada-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBBD2FF02038A12A002A7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970BA789760B0CA0D55A5236 /* Pods-GoCaribGo Grenada.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "GoCaribGo Grenada/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gocaribgo.GoCaribGo-Grenada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoCaribGo Grenada/GoCaribGo Grenada-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBBD2FD72038A129002A7DB8 /* Build configuration list for PBXProject "GoCaribGo Grenada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBD2FEC2038A12A002A7DB8 /* Debug */,
+				CBBD2FED2038A12A002A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBBD2FEE2038A12A002A7DB8 /* Build configuration list for PBXNativeTarget "GoCaribGo Grenada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBBD2FEF2038A12A002A7DB8 /* Debug */,
+				CBBD2FF02038A12A002A7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBBD2FD42038A129002A7DB8 /* Project object */;
+}
